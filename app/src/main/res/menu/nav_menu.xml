@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="home"
+            android:title="@string/home"
+            android:icon="@drawable/ic_home"
+            />
+
+        <item android:id="wallet"
+            android:title="@string/wallet"
+            android:icon="@drawable/ic_wallet"
+            />
+
+        <item android:id="booking"
+            android:title="@string/bookings"
+            android:icon="@drawable/ic_booking"
+            />
+
+        <item android:id="profile"
+            android:title="@string/profile"
+            android:icon="@drawable/ic_profile"
+            />
+    </group>
+</menu>
